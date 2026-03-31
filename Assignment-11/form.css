@@ -1,0 +1,21 @@
+label {
+margin-right: .3em;
+width: 6.3em;
+display: inline-block;
+text-align: right;
+}
+
+#formcol1 li {
+list-style: none;
+}
+
+#formcol1 input.reqfield {
+background:#FF9;
+}
+
+select:focus,
+input:focus,
+label[for]:focus {
+color:#FFF;
+background-color:#BB3D2F;
+}
